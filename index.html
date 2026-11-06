@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#17120f">
+  <meta name="description" content="Portfólio de Eduardo Carvalho, estudante de Engenharia de Software com experiência em suporte a sistemas PDV/ERP, bancos de dados e desenvolvimento web.">
+  <title>Eduardo Carvalho | Engenharia de Software</title>
+  <link rel="preload" as="image" href="assets/estrutura-casa.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="house-site">
+    <div class="scene-shade" aria-hidden="true"></div>
+
+    <section class="roof-room" id="resumo" aria-labelledby="hero-title">
+      <header class="site-header">
+        <a class="brand" href="#resumo" aria-label="Eduardo Carvalho, início">
+          <span class="brand-mark">EC<span>.</span></span>
+          <span class="brand-name"><strong>Eduardo Carvalho</strong><small>Engenharia de Software</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-nav">
+          <span></span><span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+          <a href="#resumo">Resumo</a>
+          <a href="#feira">Projetos</a>
+          <a href="#feira">Feira CREA</a>
+          <a href="#experiencia">Experiência</a>
+          <a href="#fundacao">Fundação</a>
+          <a class="nav-contact" href="#contato">Contato <span aria-hidden="true">↗</span></a>
+        </nav>
+      </header>
+
+      <div class="hero-content reveal">
+        <div class="hero-avatar" aria-hidden="true">EC</div>
+        <div class="hero-text">
+          <p class="eyebrow"><span class="status-dot"></span> PORTFÓLIO PROFISSIONAL · RIO DE JANEIRO, RJ</p>
+          <h1 id="hero-title">Eduardo <em>Carvalho</em></h1>
+          <h2>Estudante de Engenharia de Software <span>·</span> 4º período</h2>
+          <p class="professional-summary">Tenho experiência prática com suporte a sistemas PDV/ERP, bancos de dados SQL e desenvolvimento web. Desenvolvo projetos próprios full-stack com Node.js, TypeScript, React e PostgreSQL, usando ferramentas de IA como apoio à implementação e à depuração. Busco uma oportunidade de estágio em tecnologia para aplicar e ampliar essas competências.</p>
+          <div class="hero-tags">
+            <span>Em busca de estágio</span>
+            <span>Estácio de Sá</span>
+            <span>Formação prevista: 2028</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#feira">Conhecer projetos <span aria-hidden="true">↘</span></a>
+            <a class="button button-outline" href="assets/curriculo-eduardo.pdf" target="_blank" rel="noopener">Ver currículo PDF <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+      </div>
+      <div class="roof-caption"><span class="caption-rule"></span> RESUMO PROFISSIONAL <span class="caption-rule"></span></div>
+    </section>
+
+    <div class="floor-beam" aria-hidden="true"><span>FEIRA · CREA-RJ · EXPERIÊNCIAS INTERATIVAS</span></div>
+
+    <section class="projects-room feira-room" id="feira" aria-labelledby="feira-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / PROJETOS INTERATIVOS · FEIRA CREA-RJ</p>
+        <h2 id="feira-title">Projetos interativos em <em>3D e sistemas reais.</em></h2>
+        <p class="section-intro">Três experiências desenvolvidas especialmente para a feira: exploração de edifício residencial em 3D, sistema de PDV web temático e simulador de construção civil.</p>
+      </div>
+
+      <div class="project-structure feira-structure">
+        <a class="project-card reveal feira-card card-link" href="projetos/smart-building-3d/" aria-label="Abrir Smart Building 3D">
+          <div class="project-meta"><span class="project-number">01</span><span class="project-kind">SMART BUILDING 3D</span></div>
+          <div class="project-icon" aria-hidden="true">⌂</div>
+          <h3>Smart Building 3D</h3>
+          <p>Edifício residencial interativo com exatamente um apartamento por andar. Explore a fachada, selecione o pavimento e entre no apartamento 3D com cômodos e mobiliário.</p>
+          <div class="tag-row"><span>Three.js</span><span>WebGL</span><span>3D</span><span>Responsivo</span></div>
+          <span class="details-link">Abrir experiência <span aria-hidden="true">↗</span></span>
+        </a>
+
+        <div class="structural-pillar" aria-hidden="true"><i></i></div>
+
+        <a class="project-card reveal feira-card card-link" href="projetos/halloween-pos/" aria-label="Abrir Halloween POS">
+          <div class="project-meta"><span class="project-number">02</span><span class="project-kind">HALLOWEEN POS</span></div>
+          <div class="project-icon" aria-hidden="true">◈</div>
+          <h3>Halloween POS</h3>
+          <p>Sistema de ponto de venda web completo com tema Halloween: frente de caixa, retaguarda, estoque, pagamentos e relatórios com dados persistentes.</p>
+          <div class="tag-row"><span>Web PDV</span><span>Estoque</span><span>Caixa</span><span>Demo</span></div>
+          <span class="details-link">Abrir experiência <span aria-hidden="true">↗</span></span>
+        </a>
+
+        <div class="structural-pillar" aria-hidden="true"><i></i></div>
+
+        <a class="project-card reveal feira-card card-link" href="projetos/construction-3d/" aria-label="Abrir Construction 3D">
+          <div class="project-meta"><span class="project-number">03</span><span class="project-kind">CONSTRUCTION 3D</span></div>
+          <div class="project-icon" aria-hidden="true">▣</div>
+          <h3>Construction 3D</h3>
+          <p>Simulador tridimensional da construção de uma residência. Acompanhe 16 etapas da obra, da preparação do terreno à entrega final.</p>
+          <div class="tag-row"><span>Three.js</span><span>Engenharia</span><span>Timeline</span><span>Educativo</span></div>
+          <span class="details-link">Abrir experiência <span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+      <div class="project-foundation-line"><span></span><small>INTERAÇÃO · ENGENHARIA · TECNOLOGIA</small><span></span></div>
+    </section>
+
+    <div class="floor-beam experience-beam" aria-hidden="true"><span>VIGAS DE EXPERIÊNCIA</span></div>
+
+    <section class="experience-room" id="experiencia" aria-labelledby="experience-title">
+      <div class="section-heading section-heading-left reveal">
+        <p class="eyebrow">02 / TRAJETÓRIA PROFISSIONAL</p>
+        <h2 id="experience-title">Experiência que sustenta <em>o desenvolvimento.</em></h2>
+      </div>
+
+      <div class="experience-list">
+        <article class="experience-card reveal">
+          <div class="experience-marker">01</div>
+          <div class="experience-main">
+            <div class="experience-title-row"><div><h3>Estagiário de Informática</h3><p class="company">NovusTecnologia</p></div><span class="period current">09/06/2026 – Atual</span></div>
+            <ul>
+              <li>Suporte e configuração de PDV/ERP Saurus, incluindo procedimentos fiscais NFC-e/SAT e correção de vendas e estoque.</li>
+              <li>Suporte a Xmenu e Mobility, com foco na sincronização e transmissão de pedidos entre comandas, cardápios digitais, cozinha e caixa.</li>
+              <li>Consultas e scripts SQL para investigação, correção de inconsistências e manutenção de bancos de dados.</li>
+              <li>Configuração de balanças, leitores de código de barras e impressoras térmicas; registro e atendimento de chamados.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="experience-marker">02</div>
+          <div class="experience-main">
+            <div class="experience-title-row"><div><h3>Técnico de Informática</h3><p class="company">LLtecnologia</p></div><span class="period">Experiência anterior · período a confirmar</span></div>
+            <ul>
+              <li>Suporte a sistemas de Ponto de Venda, com foco na continuidade operacional dos computadores de caixa.</li>
+              <li>Manutenção, configuração e resolução de problemas no sistema Uniplus.</li>
+              <li>Manutenção de hardware e software para clientes do varejo e suporte ao PostgreSQL associado ao Uniplus.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="experience-card reveal">
+          <div class="experience-marker">03</div>
+          <div class="experience-main">
+            <div class="experience-title-row"><div><h3>Profissional Autônomo</h3><p class="company">Suporte Técnico e Desenvolvimento Web</p></div><span class="period">Aproximadamente 1 ano</span></div>
+            <ul>
+              <li>Montagem e manutenção de computadores, diagnóstico de hardware e otimização de sistemas operacionais.</li>
+              <li>Desenvolvimento de sites responsivos sob medida para clientes.</li>
+              <li>Sistema MySQL de gestão de estoque para hortifruti, com controle de entradas, saídas e redução de perdas.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <div class="floor-beam foundation-beam" aria-hidden="true"><span>FUNDAÇÃO · BASE TÉCNICA</span></div>
+
+    <section class="foundation-room" id="fundacao" aria-labelledby="foundation-title">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / CONHECIMENTO E FORMAÇÃO</p>
+        <h2 id="foundation-title">Uma base construída com <em>aprendizado contínuo.</em></h2>
+      </div>
+
+      <div class="foundation-grid">
+        <article class="foundation-card reveal">
+          <div class="foundation-card-heading"><span class="foundation-symbol">⌂</span><div><h3>Formação acadêmica</h3><p>Onde a base foi construída</p></div></div>
+          <div class="education-item"><strong>Bacharelado em Engenharia de Software</strong><span>Estácio de Sá · 4º período</span><small>Em andamento · previsão de conclusão: 2028</small></div>
+          <div class="education-item"><strong>Ensino Médio Técnico em Informática</strong><span>FAETEC</span><small>Concluído · 2025</small></div>
+        </article>
+
+        <article class="foundation-card reveal">
+          <div class="foundation-card-heading"><span class="foundation-symbol">{ }</span><div><h3>Competências técnicas</h3><p>Ferramentas e tecnologias do currículo</p></div></div>
+          <div class="skill-group"><strong>Linguagens</strong><div class="tag-row"><span>Java</span><span>JavaScript</span><span>TypeScript</span><span>Python</span></div></div>
+          <div class="skill-group"><strong>Web e backend</strong><div class="tag-row"><span>HTML</span><span>CSS</span><span>JSP</span><span>React</span><span>Node.js</span><span>Express</span><span>Prisma</span></div></div>
+          <div class="skill-group"><strong>Dados e sistemas</strong><div class="tag-row"><span>SQL</span><span>PostgreSQL</span><span>MySQL</span><span>Power BI</span><span>PDV/ERP</span><span>Windows</span></div></div>
+          <p class="systems-note">PDV/ERP: Saurus, Uniplus, Xmenu e Mobility · IA: Claude como apoio ao desenvolvimento e à depuração.</p>
+        </article>
+
+        <article class="foundation-card courses-card reveal">
+          <div class="foundation-card-heading"><span class="foundation-symbol">✦</span><div><h3>Cursos e certificações</h3><p>Formação complementar</p></div></div>
+          <ul class="course-list">
+            <li><strong>Fundação Bradesco</strong><span>FluêncIA em Inteligência Artificial, Administração no Século 21 e Aprimoramento Profissional · em andamento</span></li>
+            <li><strong>Anthropic</strong><span>Claude Code 101 e Claude Code in Action · em andamento</span></li>
+            <li><strong>GitHub</strong><span>GitHub Foundations · em andamento</span></li>
+            <li><strong>Cisco</strong><span>Cybersecurity · em andamento</span></li>
+            <li><strong>Udemy</strong><span>ITIL 4 Foundation · em andamento</span></li>
+            <li><strong>CVT FAETEC Quintino</strong><span>Montagem e Manutenção de Computadores · concluído em 2024</span></li>
+          </ul>
+        </article>
+
+        <article class="foundation-card language-card reveal">
+          <div class="foundation-card-heading"><span class="foundation-symbol">Aa</span><div><h3>Idiomas</h3><p>Comunicação</p></div></div>
+          <div class="language-level"><strong>Inglês</strong><span>Intermediário · cursando</span></div>
+        </article>
+      </div>
+
+      <div class="contact-foundation" id="contato">
+        <div class="contact-heading"><p class="eyebrow">04 / CONTATO</p><h2>Vamos conversar?</h2><p>Aberto a oportunidades de estágio e conversas sobre tecnologia.</p></div>
+        <div class="contact-links">
+          <a href="mailto:educarvalho1006@gmail.com"><span class="contact-icon">✉</span><span><small>E-MAIL</small><strong>educarvalho1006@gmail.com</strong></span><b>↗</b></a>
+          <a href="tel:+5521980843202"><span class="contact-icon">☎</span><span><small>TELEFONE</small><strong>(21) 98084-3202</strong></span><b>↗</b></a>
+          <a href="https://github.com/DuCarvalhoo" target="_blank" rel="noopener"><span class="contact-icon">⌘</span><span><small>GITHUB</small><strong>github.com/DuCarvalhoo</strong></span><b>↗</b></a>
+          <a href="https://www.linkedin.com/in/eduardo-carvalho-6b63ab324/" target="_blank" rel="noopener"><span class="contact-icon">in</span><span><small>LINKEDIN</small><strong>Eduardo Carvalho</strong></span><b>↗</b></a>
+        </div>
+      </div>
+
+      <footer class="site-footer"><span>© <span id="current-year"></span> Eduardo Carvalho</span><span>Planejar · Desenvolver · Evoluir</span><a href="#resumo">Voltar ao telhado ↑</a></footer>
+    </section>
+  </main>
+
+  <dialog class="project-dialog" id="project-dialog" aria-labelledby="dialog-title">
+    <button class="dialog-close" type="button" aria-label="Fechar detalhes">×</button>
+    <p class="eyebrow" id="dialog-origin">DETALHES DO PROJETO</p>
+    <h2 id="dialog-title"></h2>
+    <p id="dialog-description"></p>
+    <div class="dialog-stack" id="dialog-stack"></div>
+  </dialog>
+</body>
+</html>
